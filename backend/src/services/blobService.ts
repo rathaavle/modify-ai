@@ -1,4 +1,9 @@
-import { BlobServiceClient } from "@azure/storage-blob";
+import {
+  BlobServiceClient,
+  generateBlobSASQueryParameters,
+  BlobSASPermissions,
+  StorageSharedKeyCredential,
+} from "@azure/storage-blob";
 
 /**
  * Inisialisasi BlobServiceClient dari environment variable.
@@ -15,6 +20,29 @@ function getBlobServiceClient(): BlobServiceClient {
 }
 
 /**
+ * Parse AccountName dan AccountKey dari connection string.
+ * Digunakan untuk membuat SAS token.
+ */
+function parseConnectionString(connectionString: string): {
+  accountName: string;
+  accountKey: string;
+} {
+  const accountNameMatch = connectionString.match(/AccountName=([^;]+)/);
+  const accountKeyMatch = connectionString.match(/AccountKey=([^;]+)/);
+
+  if (!accountNameMatch || !accountKeyMatch) {
+    throw new Error(
+      "Connection string tidak valid: AccountName atau AccountKey tidak ditemukan",
+    );
+  }
+
+  return {
+    accountName: accountNameMatch[1],
+    accountKey: accountKeyMatch[1],
+  };
+}
+
+/**
  * Dapatkan nama container dari environment variable.
  */
 function getContainerName(): string {
@@ -22,18 +50,24 @@ function getContainerName(): string {
 }
 
 /**
- * Upload buffer ke Azure Blob Storage.
+ * Upload buffer ke Azure Blob Storage dan kembalikan SAS URL.
+ * SAS URL berlaku selama 10 menit — cukup untuk proses OCR selesai.
  *
  * @param buffer - Konten file sebagai Buffer
  * @param filename - Nama file yang akan digunakan sebagai blob name
  * @param mimeType - MIME type file (misal: "image/jpeg", "application/pdf")
- * @returns URL blob yang dapat diakses oleh Azure Document Intelligence
+ * @returns SAS URL yang dapat diakses oleh Azure Document Intelligence
  */
 export async function uploadBlob(
   buffer: Buffer,
   filename: string,
   mimeType: string,
 ): Promise<string> {
+  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+  if (!connectionString) {
+    throw new Error("AZURE_STORAGE_CONNECTION_STRING tidak ditemukan");
+  }
+
   const blobServiceClient = getBlobServiceClient();
   const containerName = getContainerName();
 
@@ -46,8 +80,27 @@ export async function uploadBlob(
     },
   });
 
-  // Kembalikan URL blob (tanpa SAS — akses via service principal atau connection string)
-  return blockBlobClient.url;
+  // Generate SAS token yang berlaku 10 menit
+  const { accountName, accountKey } = parseConnectionString(connectionString);
+  const sharedKeyCredential = new StorageSharedKeyCredential(
+    accountName,
+    accountKey,
+  );
+
+  const expiresOn = new Date();
+  expiresOn.setMinutes(expiresOn.getMinutes() + 10);
+
+  const sasToken = generateBlobSASQueryParameters(
+    {
+      containerName,
+      blobName: filename,
+      permissions: BlobSASPermissions.parse("r"), // read-only
+      expiresOn,
+    },
+    sharedKeyCredential,
+  ).toString();
+
+  return `${blockBlobClient.url}?${sasToken}`;
 }
 
 /**

@@ -5,11 +5,49 @@ import type { ValidationResult, FieldComparison } from "../types";
 const AI_TIMEOUT_MS = 30_000;
 
 /**
- * Fallback explanation yang ditampilkan jika AI service gagal atau timeout.
- * Pesan ini tetap informatif meski tanpa AI.
+ * Generate penjelasan fallback dari data validasi tanpa AI.
+ * Digunakan ketika Azure OpenAI tidak tersedia.
  */
-const FALLBACK_EXPLANATION =
-  "Penjelasan AI tidak tersedia saat ini. Silakan periksa hasil perbandingan field di atas untuk melihat detail perbedaan yang ditemukan.";
+function generateFallbackExplanation(result: ValidationResult): string {
+  const fieldLabels: Record<string, string> = {
+    materialName: "nama material",
+    batchNumber: "nomor batch",
+    expiryDate: "tanggal kedaluwarsa",
+  };
+
+  const mismatches = result.fields.filter((f) => f.isMismatch);
+
+  if (result.status === "VALID") {
+    return (
+      "Hasil verifikasi menunjukkan bahwa semua field kritis antara label kemasan dan dokumen pendukung telah sesuai. " +
+      "Nama material, nomor batch, dan tanggal kedaluwarsa cocok antara kedua sumber. " +
+      "Material ini dinyatakan aman untuk digunakan sesuai data yang tertera."
+    );
+  }
+
+  const mismatchDesc = mismatches
+    .map((f) => {
+      const label = fieldLabels[f.fieldName] ?? f.fieldName;
+      if (f.mismatchType === "missing_data") {
+        return `${label} tidak ditemukan di salah satu sumber (label: "${f.labelValue ?? "tidak ada"}", dokumen: "${f.documentValue ?? "tidak ada"}")`;
+      }
+      return `${label} berbeda antara label (${f.labelValue}) dan dokumen (${f.documentValue})`;
+    })
+    .join("; ");
+
+  const riskDesc =
+    result.riskLevel === "HIGH"
+      ? "Perbedaan ini tergolong risiko TINGGI karena menyangkut identitas atau keaslian material. Segera lakukan investigasi dan tahan material hingga ada klarifikasi."
+      : result.riskLevel === "MEDIUM"
+        ? "Perbedaan ini tergolong risiko SEDANG. Lakukan verifikasi ulang dengan dokumen sumber sebelum material digunakan."
+        : "Perbedaan yang ditemukan tergolong risiko rendah, namun tetap perlu dikonfirmasi.";
+
+  return (
+    `Hasil verifikasi menemukan ketidaksesuaian data antara label kemasan dan dokumen pendukung. ` +
+    `Ditemukan perbedaan pada: ${mismatchDesc}. ` +
+    riskDesc
+  );
+}
 
 /**
  * System prompt dalam Bahasa Indonesia untuk Azure OpenAI.
@@ -110,7 +148,7 @@ export async function generateExplanation(
     console.warn(
       "[aiService] Environment variables Azure OpenAI tidak lengkap — menggunakan fallback explanation",
     );
-    return FALLBACK_EXPLANATION;
+    return generateFallbackExplanation(result);
   }
 
   const client = new AzureOpenAI({
@@ -144,7 +182,7 @@ export async function generateExplanation(
       console.warn(
         "[aiService] Azure OpenAI mengembalikan respons kosong — menggunakan fallback explanation",
       );
-      return FALLBACK_EXPLANATION;
+      return generateFallbackExplanation(result);
     }
 
     return explanation;
@@ -157,6 +195,6 @@ export async function generateExplanation(
     } else {
       console.error("[aiService] Error memanggil Azure OpenAI:", error.message);
     }
-    return FALLBACK_EXPLANATION;
+    return generateFallbackExplanation(result);
   }
 }
