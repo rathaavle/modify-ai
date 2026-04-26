@@ -118,7 +118,7 @@ export async function generateExplanation(
     apiKey,
     deployment,
     apiVersion: "2024-08-01-preview",
-  });
+  } as import("openai").AzureClientOptions);
 
   const userMessage = buildUserMessage(result);
 

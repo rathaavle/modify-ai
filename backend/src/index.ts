@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import { verifyRouter } from "./routes/verify";
 
 // Load environment variables
 dotenv.config();
@@ -25,6 +26,9 @@ app.use(express.json());
 app.get("/api/health", (_req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
+
+// Verification route
+app.use("/api/verify", verifyRouter);
 
 app.listen(PORT, () => {
   console.log(`Medify AI backend running on port ${PORT}`);
