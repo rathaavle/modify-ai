@@ -1,0 +1,413 @@
+%PDF-1.4
+%‚„œ”
+5 0 obj
+<< /Length 3843 >>
+stream
+0.5 w
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+0 762 595 80 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+0 758 595 5 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 11 Tf 44 822 Td (PROJECT BRIEF    Hackathon Microsoft Elevate Training Center) Tj ET
+BT /F1 9 Tf 44 806 Td (Topik: Pharma / Health) Tj ET
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 726 507 28 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 16 Tf 52 745 Td (Medify AI) Tj ET
+BT /F1 9 Tf 52 730 Td (Automated Pharmaceutical Material Verification System) Tj ET
+0 0 0 rg 0 0 0 RG
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 706 507 16 re f
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 706 507 16 re S
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 50 710 Td (Kategori: Pharma / Health) Tj ET
+BT /F1 7 Tf 224 710 Td (Platform: Web Application) Tj ET
+BT /F1 7 Tf 384 710 Td (Stack: SvelteKit + Node.js + Azure AI) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 691 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 692 Td (1.  Ringkasan Eksekutif) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 619 507 56 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 619 507 56 re S
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 50 667 Td (Problem Statement) Tj ET
+BT /F1 7.5 Tf 50 656 Td (Industri farmasi menghadapi risiko serius akibat ketidaksesuaian data antara label fisik kemasan dan dokumen pendukung resmi) Tj ET
+BT /F1 7.5 Tf 50 645 Td (\(Certificate of Analysis\). Kesalahan manual dalam verifikasi  batch number tertukar, nama material salah, atau expiry date) Tj ET
+BT /F1 7.5 Tf 50 634 Td (tidak cocok  dapat menyebabkan penarikan produk, kerugian finansial, bahkan membahayakan keselamatan pasien.) Tj ET
+0.000 0.502 0.502 rg 0.000 0.502 0.502 RG
+40 612 4 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 9 Tf 50 613 Td (Research Questions) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 594 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 594 Td (Bagaimana sistem dapat mengekstraksi data kritis dari label kemasan fisik secara otomatis dan akurat?) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 581 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 581 Td (Seberapa efektif AI dalam mendeteksi ketidaksesuaian data antara label dan dokumen pendukung?) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 568 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 568 Td (Bagaimana menyajikan hasil verifikasi dengan risk scoring yang actionable bagi tim QC farmasi?) Tj ET
+0.000 0.502 0.502 rg 0.000 0.502 0.502 RG
+40 548 4 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 9 Tf 50 549 Td (Latar Belakang) Tj ET
+BT /F1 7.5 Tf 50 530 Td (Proses verifikasi material farmasi saat ini masih dilakukan secara manual oleh tim Quality Control, membutuhkan waktu 15-30) Tj ET
+BT /F1 7.5 Tf 50 519 Td (menit per batch dan rentan terhadap human error. Regulasi BPOM dan GMP mewajibkan dokumentasi ketat, namun alat bantu digital) Tj ET
+BT /F1 7.5 Tf 50 508 Td (terintegrasi masih sangat terbatas di industri farmasi Indonesia.) Tj ET
+0.000 0.502 0.502 rg 0.000 0.502 0.502 RG
+40 490 4 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 9 Tf 50 491 Td (Mengapa Proyek Ini?  \(Painkiller, bukan Vitamin\)) Tj ET
+BT /F1 7.5 Tf 50 472 Td (Medify AI hadir sebagai solusi painkiller  menyelesaikan masalah nyata yang terjadi setiap hari di lantai produksi farmasi.) Tj ET
+BT /F1 7.5 Tf 50 461 Td (Dengan mengotomatisasi verifikasi menggunakan OCR dan AI, sistem ini memangkas waktu verifikasi dari 30 menit menjadi kurang) Tj ET
+BT /F1 7.5 Tf 50 450 Td (dari 60 detik, mengurangi risiko human error secara signifikan, dan memberikan audit trail digital yang dapat) Tj ET
+BT /F1 7.5 Tf 50 439 Td (dipertanggungjawabkan.) Tj ET
+0.706 0.706 0.706 rg 0.706 0.706 0.706 RG
+44 30 m 551 30 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 44 18 Td (Medify AI  |  Project Brief  |  Hackathon Microsoft Elevate Training Center) Tj ET
+BT /F1 7 Tf 531 18 Td (1/3) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Contents 5 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 5395 >>
+stream
+0.5 w
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+0 820 595 22 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+0 816 595 4 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 44 826 Td (Medify AI    Project Brief) Tj ET
+0 0 0 rg 0 0 0 RG
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 799 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 800 Td (2.  Deskripsi Produk / Aplikasi) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 721 507 62 re f
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 721 507 62 re S
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 775 Td (Medify AI) Tj ET
+BT /F1 7.5 Tf 50 763 Td (Aplikasi web berbasis AI yang membantu tim Quality Control farmasi memverifikasi kesesuaian data material antara label fisik) Tj ET
+BT /F1 7.5 Tf 50 752 Td (kemasan dan dokumen pendukung resmi \(Certificate of Analysis, Packing List\) secara otomatis dalam hitungan detik.) Tj ET
+BT /F1 7.5 Tf 50 739 Td (Pengguna cukup mengunggah foto label kemasan dan file PDF dokumen pendukung. Sistem mengekstraksi data via OCR, membandingkan) Tj ET
+BT /F1 7.5 Tf 50 728 Td (field kritis, memberikan risk score, dan menghasilkan penjelasan berbasis AI dalam Bahasa Indonesia.) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 704 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 705 Td (3.  Fitur Utama) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 657 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 657 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 657 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 682 Td (OCR Otomatis) Tj ET
+BT /F1 7.5 Tf 54 671 Td (Ekstraksi data terstruktur dari gambar label \(JPG/PNG/WEBP\) dan PDF via Azure Document Intelligence.) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 627 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 627 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 627 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 652 Td (Validasi & Deteksi Mismatch Cerdas) Tj ET
+BT /F1 7.5 Tf 54 641 Td (Normalisasi format tanggal \(01/2026 = January 2026 = 2026-01\) dan case-insensitive matching.) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 597 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 597 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 597 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 622 Td (Risk Scoring Otomatis) Tj ET
+BT /F1 7.5 Tf 54 611 Td (Tiga level risiko: HIGH \(batch/material berbeda\), MEDIUM \(expiry berbeda\), LOW \(semua cocok\).) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 567 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 567 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 567 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 592 Td (Penjelasan AI Bahasa Indonesia) Tj ET
+BT /F1 7.5 Tf 54 581 Td (Azure OpenAI GPT-4o menghasilkan narasi penjelasan yang mudah dipahami tim QC non-teknis.) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 537 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 537 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 537 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 562 Td (Antarmuka Web Responsif) Tj ET
+BT /F1 7.5 Tf 54 551 Td (SvelteKit frontend dengan upload drag-and-drop, loading indicator, dan visualisasi hasil jelas.) Tj ET
+0.910 0.949 1.000 rg 0.910 0.949 1.000 RG
+44 507 507 31 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 507 507 31 re S
+0 0 0 rg 0 0 0 RG
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+44 507 4 31 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 54 532 Td (Zero Data Retention) Tj ET
+BT /F1 7.5 Tf 54 521 Td (File dihapus dari Azure Blob Storage segera setelah OCR selesai. Tidak ada database permanen.) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 497 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 498 Td (4.  Teknologi yang Digunakan) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 463 165 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 50 467 Td (Frontend) Tj ET
+0 0 0 rg 0 0 0 RG
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 448 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 50 451 Td (SvelteKit 2.x + TypeScript) Tj ET
+BT /F1 7.5 Tf 50 437 Td (Vite 6) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 420 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 50 423 Td (Svelte Store \(state management\)) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+215 463 165 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 221 467 Td (Backend) Tj ET
+0 0 0 rg 0 0 0 RG
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+215 448 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 221 451 Td (Node.js / Express + TypeScript) Tj ET
+BT /F1 7.5 Tf 221 437 Td (Multer \(file upload\)) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+215 420 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 221 423 Td (UUID, dotenv) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+386 463 165 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 392 467 Td (Azure AI) Tj ET
+0 0 0 rg 0 0 0 RG
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+386 448 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 392 451 Td (Document Intelligence \(OCR\)) Tj ET
+BT /F1 7.5 Tf 392 437 Td (OpenAI GPT-4o) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+386 420 165 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 392 423 Td (Blob Storage \(temp\)) Tj ET
+0.706 0.706 0.706 rg 0.706 0.706 0.706 RG
+44 30 m 551 30 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 44 18 Td (Medify AI  |  Project Brief  |  Hackathon Microsoft Elevate Training Center) Tj ET
+BT /F1 7 Tf 531 18 Td (2/3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Contents 7 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 5972 >>
+stream
+0.5 w
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+0 820 595 22 re f
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+0 816 595 4 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 44 826 Td (Medify AI    Project Brief) Tj ET
+0 0 0 rg 0 0 0 RG
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 799 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 800 Td (5.  Cara Penggunaan Produk) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 752 507 29 re f
+0 0 0 rg 0 0 0 RG
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 765 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 769 Td (1) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 779 Td (Buka Aplikasi) Tj ET
+BT /F1 7.5 Tf 68 767 Td (Akses http://localhost:5173 \(dev\). Halaman utama menampilkan form upload dua file.) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 738 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 742 Td (2) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 752 Td (Upload Label Kemasan) Tj ET
+BT /F1 7.5 Tf 68 740 Td (Klik area Label Kemasan, pilih file gambar label \(JPG, PNG, atau WEBP, maks. 10 MB\).) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 698 507 29 re f
+0 0 0 rg 0 0 0 RG
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 711 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 715 Td (3) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 725 Td (Upload Dokumen Pendukung) Tj ET
+BT /F1 7.5 Tf 68 713 Td (Klik area Dokumen Pendukung, pilih file PDF Certificate of Analysis \(maks. 20 MB\).) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 684 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 688 Td (4) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 698 Td (Klik Tombol Verifikasi) Tj ET
+BT /F1 7.5 Tf 68 686 Td (Tekan tombol Verifikasi. Loading indicator tampil selama proses berlangsung \(10-30 detik\).) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 633 507 40 re f
+0 0 0 rg 0 0 0 RG
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 657 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 661 Td (5) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 671 Td (Baca Hasil Verifikasi) Tj ET
+BT /F1 7.5 Tf 68 659 Td (Hasil ditampilkan: badge Status \(VALID/MISMATCH\), badge Risk Level \(HIGH/MEDIUM/LOW\), tabel perbandingan field dengan) Tj ET
+BT /F1 7.5 Tf 68 648 Td (highlight merah pada field berbeda, dan penjelasan AI.) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 619 18 16 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 8 Tf 49 623 Td (6) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 68 633 Td (Verifikasi Berikutnya) Tj ET
+BT /F1 7.5 Tf 68 621 Td (Upload file baru untuk verifikasi berikutnya. Tidak perlu refresh halaman.) Tj ET
+1.000 0.984 0.902 rg 1.000 0.984 0.902 RG
+44 564 507 38 re f
+0.706 0.510 0.000 rg 0.706 0.510 0.000 RG
+44 564 507 38 re S
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 50 594 Td (Akses Demo) Tj ET
+BT /F1 7.5 Tf 50 582 Td (URL Dev  : http://localhost:5173) Tj ET
+BT /F1 7.5 Tf 50 571 Td (Backend  : http://localhost:3001  |  Autentikasi: tidak diperlukan) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 551 4 15 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 50 552 Td (6.  Informasi Pendukung) Tj ET
+BT /F2 8 Tf 50 531 Td (Alur Sistem \(System Flow\):) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 518 Td (1.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 518 Td (User upload label.png + document.pdf via browser) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 506 Td (2.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 506 Td (Frontend POST /api/verify ke Express backend) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 494 Td (3.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 494 Td (Backend upload file ke Azure Blob Storage, generate SAS URL) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 482 Td (4.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 482 Td (Azure Document Intelligence OCR ekstrak teks dari kedua file) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 470 Td (5.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 470 Td (Blob dihapus, Validator bandingkan field kritis) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 458 Td (6.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 458 Td (Risk Scorer tentukan level risiko, OpenAI generate penjelasan) Tj ET
+0.000 0.400 0.800 rg 0.000 0.400 0.800 RG
+BT /F2 7.5 Tf 50 446 Td (7.) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 446 Td (JSON response dikembalikan, hasil ditampilkan di frontend) Tj ET
+0.000 0.502 0.502 rg 0.000 0.502 0.502 RG
+40 425 4 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 9 Tf 50 426 Td (Rencana Pengembangan ke Depan) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 407 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 407 Td (Autentikasi pengguna dan manajemen role \(QC Officer, Supervisor, Admin\)) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 394 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 394 Td (Riwayat verifikasi dengan audit trail dan export laporan PDF) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 381 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 381 Td (Batch processing  verifikasi banyak material sekaligus) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 368 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 368 Td (Integrasi dengan sistem ERP/LIMS yang sudah ada) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+BT /F2 7.5 Tf 50 355 Td (-) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7.5 Tf 64 355 Td (Mobile PWA untuk verifikasi langsung di lantai produksi) Tj ET
+0.961 0.969 0.988 rg 0.961 0.969 0.988 RG
+44 306 507 32 re f
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+44 306 507 32 re S
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 50 328 Td (Tech Stack:) Tj ET
+BT /F1 7.5 Tf 50 317 Td (Frontend: SvelteKit + TypeScript  |  Backend: Node.js/Express + TypeScript) Tj ET
+BT /F1 7.5 Tf 50 307 Td (Azure: Document Intelligence \(OCR\)  +  OpenAI GPT-4o  +  Blob Storage) Tj ET
+0.706 0.706 0.706 rg 0.706 0.706 0.706 RG
+44 30 m 551 30 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 44 18 Td (Medify AI  |  Project Brief  |  Hackathon Microsoft Elevate Training Center) Tj ET
+BT /F1 7 Tf 531 18 Td (3/3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Contents 9 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000016023 00000 n 
+0000015953 00000 n 
+0000015808 00000 n 
+0000015878 00000 n 
+0000000015 00000 n 
+0000003910 00000 n 
+0000004052 00000 n 
+0000009499 00000 n 
+0000009641 00000 n 
+0000015665 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+16072
+%%EOF
