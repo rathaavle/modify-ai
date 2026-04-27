@@ -1,0 +1,691 @@
+%PDF-1.4
+%‚„œ”
+5 0 obj
+<< /Length 6208 >>
+stream
+0.5 w
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+0 790 595 52 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 20 Tf 40 820 Td (Medify AI    Test Data Summary) Tj ET
+BT /F1 11 Tf 40 800 Td (Rangkuman Dummy Data untuk Testing Verifikasi Material Farmasi) Tj ET
+0 0 0 rg 0 0 0 RG
+0.902 0.933 1.000 rg 0.902 0.933 1.000 RG
+40 730 515 50 re f
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 730 515 50 re S
+0 0 0 rg 0 0 0 RG
+BT /F1 10 Tf 52 762 Td (Dokumen ini berisi 10 skenario test data untuk menguji sistem verifikasi Medify AI.) Tj ET
+BT /F1 10 Tf 52 748 Td (Setiap skenario terdiri dari: label.png \(gambar label kemasan\) + document.pdf \(CoA\).) Tj ET
+BT /F1 9 Tf 52 734 Td (Generated: 27 April 2026) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 650 165 65 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 700 Td (Total Skenario) Tj ET
+BT /F2 30 Tf 48 665 Td (10) Tj ET
+0 0 0 rg 0 0 0 RG
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+218 650 165 65 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 226 700 Td (Skenario VALID) Tj ET
+BT /F2 30 Tf 226 665 Td (5) Tj ET
+0 0 0 rg 0 0 0 RG
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+396 650 165 65 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 404 700 Td (Skenario MISMATCH) Tj ET
+BT /F2 30 Tf 404 665 Td (5) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F2 11 Tf 40 630 Td (Keterangan Warna:) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 608 12 12 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 10 Tf 58 610 Td (VALID    Semua field cocok. Ekspektasi: status VALID, risiko RENDAH \(LOW\).) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 590 12 12 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 10 Tf 58 592 Td (MISMATCH    Ada field berbeda. Ekspektasi: status MISMATCH, risiko TINGGI/SEDANG.) Tj ET
+0.078 0.235 0.471 rg 0.078 0.235 0.471 RG
+40 555 515 22 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 11 Tf 48 562 Td (Daftar Semua Skenario) Tj ET
+0 0 0 rg 0 0 0 RG
+0.843 0.882 0.961 rg 0.843 0.882 0.961 RG
+40 534 515 18 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 8 Tf 48 539 Td (No) Tj ET
+BT /F2 8 Tf 68 539 Td (Folder) Tj ET
+BT /F2 8 Tf 220 539 Td (Deskripsi) Tj ET
+BT /F2 8 Tf 415 539 Td (Kategori) Tj ET
+BT /F2 8 Tf 480 539 Td (Risk) Tj ET
+BT /F2 8 Tf 520 539 Td (Hal.) Tj ET
+0.961 0.973 1.000 rg 0.961 0.973 1.000 RG
+40 515 515 16 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 48 518 Td (1) Tj ET
+BT /F1 8 Tf 68 518 Td (scenario-valid-01) Tj ET
+BT /F1 8 Tf 220 518 Td (Semua field identik persis) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 415 518 Td (VALID) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 480 518 Td (LOW) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 518 Td (2) Tj ET
+BT /F1 8 Tf 48 501 Td (2) Tj ET
+BT /F1 8 Tf 68 501 Td (scenario-valid-02) Tj ET
+BT /F1 8 Tf 220 501 Td (Expiry date: MM/YYYY vs Month YYYY) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 415 501 Td (VALID) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 480 501 Td (LOW) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 501 Td (2) Tj ET
+0.961 0.973 1.000 rg 0.961 0.973 1.000 RG
+40 481 515 16 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 48 484 Td (3) Tj ET
+BT /F1 8 Tf 68 484 Td (scenario-valid-03) Tj ET
+BT /F1 8 Tf 220 484 Td (Expiry date: YYYY-MM vs MM/YYYY) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 415 484 Td (VALID) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 480 484 Td (LOW) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 484 Td (2) Tj ET
+BT /F1 8 Tf 48 467 Td (4) Tj ET
+BT /F1 8 Tf 68 467 Td (scenario-valid-04) Tj ET
+BT /F1 8 Tf 220 467 Td (Nama material UPPERCASE vs Titlecase) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 415 467 Td (VALID) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 480 467 Td (LOW) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 467 Td (2) Tj ET
+0.961 0.973 1.000 rg 0.961 0.973 1.000 RG
+40 447 515 16 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 48 450 Td (5) Tj ET
+BT /F1 8 Tf 68 450 Td (scenario-valid-05) Tj ET
+BT /F1 8 Tf 220 450 Td (Expiry date: Jun vs June \(singkatan ) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 415 450 Td (VALID) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 8 Tf 480 450 Td (LOW) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 450 Td (2) Tj ET
+BT /F1 8 Tf 48 433 Td (6) Tj ET
+BT /F1 8 Tf 68 433 Td (scenario-mismatch-01) Tj ET
+BT /F1 8 Tf 220 433 Td (Batch number berbeda) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 415 433 Td (MISMATCH) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 480 433 Td (HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 433 Td (3) Tj ET
+0.961 0.973 1.000 rg 0.961 0.973 1.000 RG
+40 413 515 16 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 48 416 Td (7) Tj ET
+BT /F1 8 Tf 68 416 Td (scenario-mismatch-02) Tj ET
+BT /F1 8 Tf 220 416 Td (Nama material berbeda \(beda produk\)) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 415 416 Td (MISMATCH) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 480 416 Td (HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 416 Td (3) Tj ET
+BT /F1 8 Tf 48 399 Td (8) Tj ET
+BT /F1 8 Tf 68 399 Td (scenario-mismatch-03) Tj ET
+BT /F1 8 Tf 220 399 Td (Batch number DAN nama material kedua) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 415 399 Td (MISMATCH) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 480 399 Td (HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 399 Td (3) Tj ET
+0.961 0.973 1.000 rg 0.961 0.973 1.000 RG
+40 379 515 16 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 48 382 Td (9) Tj ET
+BT /F1 8 Tf 68 382 Td (scenario-mismatch-04) Tj ET
+BT /F1 8 Tf 220 382 Td (Expiry date beda bulan \(Mar vs Sep\)) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 415 382 Td (MISMATCH) Tj ET
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+BT /F2 8 Tf 480 382 Td (MEDIUM) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 382 Td (3) Tj ET
+BT /F1 8 Tf 48 365 Td (10) Tj ET
+BT /F1 8 Tf 68 365 Td (scenario-mismatch-05) Tj ET
+BT /F1 8 Tf 220 365 Td (Expiry date beda tahun \(2025 vs 2027) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 415 365 Td (MISMATCH) Tj ET
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+BT /F2 8 Tf 480 365 Td (MEDIUM) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 520 365 Td (3) Tj ET
+0.784 0.784 0.784 rg 0.784 0.784 0.784 RG
+40 28 m 555 28 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 40 16 Td (Medify AI Test Data  |  Halaman 1 dari 3) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 595 842]
+   /Contents 5 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+7 0 obj
+<< /Length 8027 >>
+stream
+0.5 w
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+0 800 595 42 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 15 Tf 40 824 Td (Skenario VALID  \(5 skenario\)) Tj ET
+BT /F1 10 Tf 40 808 Td (Ekspektasi: Status VALID  |  Risiko RENDAH \(LOW\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.941 0.988 0.941 rg 0.941 0.988 0.941 RG
+40 674 515 108 re f
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 674 515 108 re S
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 764 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 769 Td (scenario-valid-01    Semua field identik persis) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 748 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 752 Td (Field) Tj ET
+BT /F2 7 Tf 170 752 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 752 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 752 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 731 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 734 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 734 Td (Paracetamol 500mg) Tj ET
+BT /F1 7 Tf 355 734 Td (Paracetamol 500mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 734 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 719 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 719 Td (BT-2024-001) Tj ET
+BT /F1 7 Tf 355 719 Td (BT-2024-001) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 719 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 701 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 704 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 704 Td (01/2026) Tj ET
+BT /F1 7 Tf 355 704 Td (01/2026) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 704 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 682 Td (Catatan: Semua field cocok persis, tidak ada perbedaan sama sekali.) Tj ET
+0.941 0.988 0.941 rg 0.941 0.988 0.941 RG
+40 554 515 108 re f
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 554 515 108 re S
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 644 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 649 Td (scenario-valid-02    Expiry date: MM/YYYY vs Month YYYY) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 628 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 632 Td (Field) Tj ET
+BT /F2 7 Tf 170 632 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 632 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 632 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 611 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 614 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 614 Td (Ibuprofen 400mg) Tj ET
+BT /F1 7 Tf 355 614 Td (Ibuprofen 400mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 614 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 599 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 599 Td (IBU-2024-088) Tj ET
+BT /F1 7 Tf 355 599 Td (IBU-2024-088) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 599 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 581 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 584 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 584 Td (03/2027) Tj ET
+BT /F1 7 Tf 355 584 Td (March 2027) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 584 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 562 Td (Catatan: 03/2027 = March 2027, dikenali sama secara semantik.) Tj ET
+0.941 0.988 0.941 rg 0.941 0.988 0.941 RG
+40 434 515 108 re f
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 434 515 108 re S
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 524 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 529 Td (scenario-valid-03    Expiry date: YYYY-MM vs MM/YYYY) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 508 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 512 Td (Field) Tj ET
+BT /F2 7 Tf 170 512 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 512 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 512 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 491 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 494 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 494 Td (Metformin 500mg) Tj ET
+BT /F1 7 Tf 355 494 Td (Metformin 500mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 494 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 479 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 479 Td (MET-2023-412) Tj ET
+BT /F1 7 Tf 355 479 Td (MET-2023-412) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 479 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 461 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 464 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 464 Td (09/2025) Tj ET
+BT /F1 7 Tf 355 464 Td (2025-09) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 464 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 442 Td (Catatan: Format ISO 2025-09 dikenali sama dengan 09/2025.) Tj ET
+0.941 0.988 0.941 rg 0.941 0.988 0.941 RG
+40 314 515 108 re f
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 314 515 108 re S
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 404 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 409 Td (scenario-valid-04    Nama material UPPERCASE vs Titlecase) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 388 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 392 Td (Field) Tj ET
+BT /F2 7 Tf 170 392 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 392 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 392 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 371 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 374 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 374 Td (AMOXICILLIN 500MG) Tj ET
+BT /F1 7 Tf 355 374 Td (Amoxicillin 500mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 374 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 359 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 359 Td (AMX-2024-200) Tj ET
+BT /F1 7 Tf 355 359 Td (AMX-2024-200) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 359 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 341 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 344 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 344 Td (12/2026) Tj ET
+BT /F1 7 Tf 355 344 Td (December 2026) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 344 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 322 Td (Catatan: Perbedaan huruf kapital diabaikan \(case-insensitive\).) Tj ET
+0.941 0.988 0.941 rg 0.941 0.988 0.941 RG
+40 194 515 108 re f
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 194 515 108 re S
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+40 284 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 289 Td (scenario-valid-05    Expiry date: Jun vs June \(singkatan bulan\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 268 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 272 Td (Field) Tj ET
+BT /F2 7 Tf 170 272 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 272 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 272 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 251 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 254 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 254 Td (Ciprofloxacin 500mg) Tj ET
+BT /F1 7 Tf 355 254 Td (Ciprofloxacin 500mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 254 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 239 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 239 Td (CIP-2024-777) Tj ET
+BT /F1 7 Tf 355 239 Td (CIP-2024-777) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 239 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 221 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 224 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 224 Td (Jun 2026) Tj ET
+BT /F1 7 Tf 355 224 Td (June 2026) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 224 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 202 Td (Catatan: Singkatan Jun dikenali sama dengan June.) Tj ET
+0.784 0.784 0.784 rg 0.784 0.784 0.784 RG
+40 28 m 555 28 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 40 16 Td (Medify AI Test Data  |  Halaman 2 dari 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 595 842]
+   /Contents 7 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 8703 >>
+stream
+0.5 w
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+0 800 595 42 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 15 Tf 40 824 Td (Skenario MISMATCH  \(5 skenario\)) Tj ET
+BT /F1 10 Tf 40 808 Td (Ekspektasi: Status MISMATCH  |  Risiko HIGH atau MEDIUM) Tj ET
+0 0 0 rg 0 0 0 RG
+0.988 0.949 0.949 rg 0.988 0.949 0.949 RG
+40 674 515 108 re f
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 674 515 108 re S
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 764 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 769 Td (scenario-mismatch-01    Batch number berbeda) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 748 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 752 Td (Field) Tj ET
+BT /F2 7 Tf 170 752 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 752 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 752 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 731 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 734 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 734 Td (Amoxicillin 250mg) Tj ET
+BT /F1 7 Tf 355 734 Td (Amoxicillin 250mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 734 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 716 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 719 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 719 Td (AMX-2024-055) Tj ET
+BT /F1 7 Tf 355 719 Td (AMX-2024-099) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 719 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 701 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 704 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 704 Td (06/2025) Tj ET
+BT /F1 7 Tf 355 704 Td (June 2025) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 704 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 682 Td (Catatan: Batch number berbeda \(055 vs 099\). Risiko TINGGI.) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 490 769 Td (RISK: HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+0.988 0.949 0.949 rg 0.988 0.949 0.949 RG
+40 554 515 108 re f
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 554 515 108 re S
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 644 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 649 Td (scenario-mismatch-02    Nama material berbeda \(beda produk\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 628 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 632 Td (Field) Tj ET
+BT /F2 7 Tf 170 632 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 632 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 632 Td (Status) Tj ET
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 611 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 614 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 614 Td (Paracetamol 500mg) Tj ET
+BT /F1 7 Tf 355 614 Td (Ibuprofen 400mg) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 614 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 599 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 599 Td (BT-2024-300) Tj ET
+BT /F1 7 Tf 355 599 Td (BT-2024-300) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 599 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 581 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 584 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 584 Td (08/2026) Tj ET
+BT /F1 7 Tf 355 584 Td (August 2026) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 584 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 562 Td (Catatan: Nama material berbeda total. Risiko TINGGI.) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 490 649 Td (RISK: HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+0.988 0.949 0.949 rg 0.988 0.949 0.949 RG
+40 434 515 108 re f
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 434 515 108 re S
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+40 524 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 529 Td (scenario-mismatch-03    Batch number DAN nama material keduanya berbeda) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 508 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 512 Td (Field) Tj ET
+BT /F2 7 Tf 170 512 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 512 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 512 Td (Status) Tj ET
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 491 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 494 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 494 Td (Metformin 850mg) Tj ET
+BT /F1 7 Tf 355 494 Td (Metformin 500mg) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 494 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 476 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 479 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 479 Td (MET-2024-101) Tj ET
+BT /F1 7 Tf 355 479 Td (MET-2024-202) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 479 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 461 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 464 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 464 Td (11/2025) Tj ET
+BT /F1 7 Tf 355 464 Td (November 2025) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 464 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 442 Td (Catatan: Dua field kritis berbeda sekaligus. Risiko TINGGI.) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 8 Tf 490 529 Td (RISK: HIGH) Tj ET
+0 0 0 rg 0 0 0 RG
+0.988 0.949 0.949 rg 0.988 0.949 0.949 RG
+40 314 515 108 re f
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+40 314 515 108 re S
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+40 404 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 409 Td (scenario-mismatch-04    Expiry date beda bulan \(Mar vs Sep\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 388 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 392 Td (Field) Tj ET
+BT /F2 7 Tf 170 392 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 392 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 392 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 371 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 374 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 374 Td (Cetirizine 10mg) Tj ET
+BT /F1 7 Tf 355 374 Td (Cetirizine 10mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 374 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 359 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 359 Td (CTZ-2024-050) Tj ET
+BT /F1 7 Tf 355 359 Td (CTZ-2024-050) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 359 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 341 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 344 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 344 Td (03/2026) Tj ET
+BT /F1 7 Tf 355 344 Td (September 2026) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 344 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 322 Td (Catatan: Tanggal kedaluwarsa berbeda bulan. Perlu verifikasi ulang.) Tj ET
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+BT /F2 8 Tf 490 409 Td (RISK: MEDIUM) Tj ET
+0 0 0 rg 0 0 0 RG
+0.988 0.949 0.949 rg 0.988 0.949 0.949 RG
+40 194 515 108 re f
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+40 194 515 108 re S
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+40 284 515 18 re f
+1 1 1 rg 1 1 1 RG
+BT /F2 9 Tf 48 289 Td (scenario-mismatch-05    Expiry date beda tahun \(2025 vs 2027\)) Tj ET
+0 0 0 rg 0 0 0 RG
+0.863 0.902 0.863 rg 0.863 0.902 0.863 RG
+48 268 499 14 re f
+0 0 0 rg 0 0 0 RG
+BT /F2 7 Tf 52 272 Td (Field) Tj ET
+BT /F2 7 Tf 170 272 Td (Nilai Label  \(label.png\)) Tj ET
+BT /F2 7 Tf 355 272 Td (Nilai Dokumen  \(document.pdf\)) Tj ET
+BT /F2 7 Tf 530 272 Td (Status) Tj ET
+0.941 0.973 0.941 rg 0.941 0.973 0.941 RG
+48 251 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 254 Td (Nama Material) Tj ET
+BT /F1 7 Tf 170 254 Td (Omeprazole 20mg) Tj ET
+BT /F1 7 Tf 355 254 Td (Omeprazole 20mg) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 254 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 239 Td (Batch Number) Tj ET
+BT /F1 7 Tf 170 239 Td (OMP-2024-333) Tj ET
+BT /F1 7 Tf 355 239 Td (OMP-2024-333) Tj ET
+0.078 0.471 0.235 rg 0.078 0.471 0.235 RG
+BT /F2 7 Tf 530 239 Td (OK) Tj ET
+0 0 0 rg 0 0 0 RG
+1.000 0.922 0.922 rg 1.000 0.922 0.922 RG
+48 221 499 13 re f
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 224 Td (Expiry Date) Tj ET
+BT /F1 7 Tf 170 224 Td (05/2025) Tj ET
+BT /F1 7 Tf 355 224 Td (May 2027) Tj ET
+0.627 0.157 0.157 rg 0.627 0.157 0.157 RG
+BT /F2 7 Tf 530 224 Td (BEDA) Tj ET
+0 0 0 rg 0 0 0 RG
+BT /F1 7 Tf 52 202 Td (Catatan: Tanggal kedaluwarsa berbeda tahun \(2025 vs 2027\).) Tj ET
+0.706 0.392 0.000 rg 0.706 0.392 0.000 RG
+BT /F2 8 Tf 490 289 Td (RISK: MEDIUM) Tj ET
+0 0 0 rg 0 0 0 RG
+0.784 0.784 0.784 rg 0.784 0.784 0.784 RG
+40 28 m 555 28 l S
+0 0 0 rg 0 0 0 RG
+BT /F1 8 Tf 40 16 Td (Medify AI Test Data  |  Halaman 3 dari 3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 595 842]
+   /Contents 9 0 R
+   /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000023760 00000 n 
+0000023690 00000 n 
+0000023545 00000 n 
+0000023615 00000 n 
+0000000015 00000 n 
+0000006275 00000 n 
+0000006420 00000 n 
+0000014499 00000 n 
+0000014644 00000 n 
+0000023399 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+23809
+%%EOF
